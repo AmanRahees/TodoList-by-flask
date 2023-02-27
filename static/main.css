@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-body{
+    display: flex;
+    justify-content: center;
+}
+
+.todo-add{
+    display: flex;
+    justify-content: center;
+}

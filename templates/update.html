@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h2 class="text-center text-dark">Edit Task</h2>
+
+<div class="todo-add">
+    <form action="/update/{{task.id}}" method="post">
+        <input class="p-1  border-dark border-1 rounded-3" name="content" value="{{task.content}}">
+        <button class="btn btn-sm btn-success" type="submit">Update</button>
+    </form>
+</div>
+
+{% endblock %}
